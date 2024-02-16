@@ -1,5 +1,5 @@
 # Mouton-de-panurge
-*mariam ibtihel narimane*
+*Mariam Ibtihel Narimane*
 
 
 
