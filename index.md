@@ -1,16 +1,18 @@
-# Mouton de Panurge
+# Phénomène du mouton de panurge 
 
-Résumé de quelques lignes présentant l'objectif de votre projet, la méthode que vous avez suivie pour le réaliser et les résultats marquants que vous avez obtenus.
+Nous allons simuler ce phénomène avec Python. En créant notre population et l'environnement dans lequel  les individus vont bouger et intéragire entre eux.Nous allons ensuite simuler le comportement de chaque individu ( déterminer la direction à suivre (leader ou aléatoire),se déplacer dans la direction choisi,gérer les collisions avec les obstacles et les autres moutons...),et enfin Visualiser la simulation (afficher la position des moutons et du leader).Cette simulation est une modélisation dynamique du phénomène du mouton de panurge.
 
-## English version
 
-Un titre et un résumé en anglais qui reprennent le titre et le résumé en français, mais en anglais pour attirer une audience internationale sur vos travaux !
+
+## Phenomenon of the panurge sheep 
+
+We will simulate this phenomenon with Python. By creating our population and the environment in which individuals will move and interact with each other.We will then simulate the behavior of each individual ( determine the direction to follow (leader or random),move in the chosen direction,manage collisions with obstacles and other sheep...),and finally Visualize the simulation (display the position of the sheep and the leader). This simulation is a dynamic modeling of the panurge sheep phenomenon.
 
 ## Présentation de l'équipe
 
 |(´・ω・｀)| ( ͡° ͜ʖ ͡°) | ಠ_ಠ | ᕕ( ᐛ )ᕗ |
 |-----|--|--|--|
-| P. Bismuth| J. Doe | A. Onyme  | N. Nescio  |
+| F.Ibtihel| | A.Mariam | O.Narimane |
 
 
 ## Description synthétique du projet
