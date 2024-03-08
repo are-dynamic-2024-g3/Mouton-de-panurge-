@@ -1,6 +1,6 @@
 # Mouton-de-panurge
 
-groupe : TrioDaynamos.
+Groupe : TrioDaynamos.
 
 Membres : *Mariam Ibtihel Narimane*
 
