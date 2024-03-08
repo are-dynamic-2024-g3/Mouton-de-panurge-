@@ -10,9 +10,9 @@ We will simulate this phenomenon with Python. By creating our population and the
 
 ## Présentation de l'équipe
 
-|(´・ω・｀)| ( ͡° ͜ʖ ͡°) | ಠ_ಠ | ᕕ( ᐛ )ᕗ |
+|(´・ω・｀)|  | ಠ_ಠ | ᕕ( ᐛ )ᕗ |
 |-----|--|--|--|
-| F.Ibtihel| | A.Mariam | O.Narimane |
+| F.Ibtihel| A.Mariam | O.Narimane |
 
 
 ## Description synthétique du projet
