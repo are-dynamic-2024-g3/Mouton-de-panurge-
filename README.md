@@ -20,6 +20,7 @@ Point historique : Lors de son voyage avec son compagnon Pantagruel, Panurge se 
 Exemple de ce phénomène dans la vie cotidienne :
 
 Exemple 1: Suivre la foule dans des situations dangereuses en paniquant et sans réfléchir , comme une bousculade ou une émeute.
+
 Exemple 2:  Les chasses aux sorcières en Europe et en Amérique au 17eme siècles , où des femmes innocentes ont été persécutées et tuées non pas sur  la base d'accusations avec des fondements mais sur des rumeurs. 
 
 
