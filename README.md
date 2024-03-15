@@ -11,6 +11,7 @@ L’effet mouton  :  est une théorie issue de la psychologie sociale, nous seri
 
 
 Nous allons simuler ce phénomène avec Python. En créant notre population et l'environnement dans lequel  les individus vont bouger et intéragire entre eux. 
+
 <img width="280" alt="image1" src=https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/blob/main/image1.jpeg>
 
 Point historique : Lors de son voyage avec son compagnon Pantagruel, Panurge se querelle avec un marchand de moutons nommé Dindenault. Décidé à se venger du négociant, Panurge lui achète un mouton et le jette à la mer. Habitués à suivre le chef de leur troupeau, tous les moutons sautent à leur tour dans la mer.
