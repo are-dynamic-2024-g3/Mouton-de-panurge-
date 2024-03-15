@@ -4,11 +4,10 @@ Groupe : TrioDaynamos.
 
 Membres : *Mariam Ibtihel Narimane*
 
-<img width="680" alt="image0" src=https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/blob/main/image0.jpeg>
-
 
 L’effet mouton  :  est une théorie issue de la psychologie sociale, nous serions poussés à reproduire les comportements de nos semblables. Selon ce principe, un individu ne sachant quoi faire ou quoi penser, aura tendance à adopter le comportement ou le point de vue d'autres personnes.
 
+<img width="580" alt="image0" src=https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/blob/main/image0.jpeg>
 
 
 Nous allons simuler ce phénomène avec Python. En créant notre population et l'environnement dans lequel  les individus vont bouger et intéragire entre eux. 
