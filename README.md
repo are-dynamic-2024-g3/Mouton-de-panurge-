@@ -34,13 +34,16 @@
 
 Ces expressions contribuent à réguler le mouvement des moutons en fonction de la distance par rapport au leader et à maintenir une vitesse maximale cohérente.    
 
+
 2. **Créer un environnement :** Mise en place d'un environnement virtuel dans lequel les moutons évolueront.
    
 3. **Initialiser une population de moutons :** Génération d'une population de moutons avec des comportements initiaux aléatoires.
 
 4. **Simuler le comportement :** Développement d'un algorithme pour simuler l'interaction et le mouvement des moutons selon l'effet mouton.
+
+   <img  width="280" alt="image1" src= https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/blob/main/Capture%20d%E2%80%99%C3%A9cran%20du%202024-03-14%2021-28-14.png>
    
-5. **Visualiser la simulation :** Création de graphiques ou d'animations pour représenter visuellement le comportement des moutons dans l'environnement simulé.
+6. **Visualiser la simulation :** Création de graphiques ou d'animations pour représenter visuellement le comportement des moutons dans l'environnement simulé.
 
     <img  width="280" alt="image1" src=https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/blob/main/image1.jpeg>
 
