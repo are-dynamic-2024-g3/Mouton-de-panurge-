@@ -45,11 +45,46 @@ La simulation permet aux utilisateurs de comprendre les différentes facettes de
 
 </ul>
 
-**Critère(s) d'évaluation**
 
 ## Présentation structurée des résultats
 
-Présentation du choix de modélisation, des outils, du code et des résultats (tableaux, courbes, animations...) (**avec une analyse critique**).
+Comment modéliser ce comportement avec le modèle de schilling:
+
+Simulation avec des agents
+
+Définir la classe Mouton:
+
+Attributs: position, direction, vitesse, tendance à suivre (suivre_le_leader)
+Méthodes: se_deplacer(), suivre_leader(leader)
+
+Créer un environnement:
+
+Définir une zone de simulation
+Placer des obstacles
+
+Initialiser une population de moutons:
+
+Définir un nombre initial de moutons
+Attribuer des positions et directions aléatoires aux moutons
+
+Simuler le comportement:
+
+Pour chaque mouton à chaque itération:
+
+Déterminer la direction à suivre (leader ou aléatoire)
+Se déplacer dans la direction choisie
+Gérer les collisions avec les obstacles et les autres moutons
+
+Visualiser la simulation:
+
+Afficher la position des moutons et du leader
+
+Bibliothèques utiles:
+
+numpy pour les calculs vectoriels
+matplotlib pour la visualisation
+
+
 
 ## Lien vers page de blog : <a href="blog.html"> C'est ici ! </a>
 
