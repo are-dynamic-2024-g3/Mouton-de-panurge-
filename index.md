@@ -39,7 +39,7 @@ La simulation permet aux utilisateurs de comprendre les différentes facettes de
 **Objectifs**
 
 
--Recréer la dynamique de l'épisode.
+-Recréer la dynamique de l'épisode\n
 -explorer les conditions favorisant la contagion. 
 -étudier l'impact de la manipulation sur le groupe.
 
