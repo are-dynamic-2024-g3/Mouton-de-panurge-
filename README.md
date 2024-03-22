@@ -1,33 +1,35 @@
 # Mouton-de-panurge
 
-Groupe : TrioDaynamos.
+**Groupe : TrioDaynamos**
 
-Membres : *Mariam Ibtihel Narimane*
+**Membres :**  *Mariam Ibtihel Narimane*
 
+**Introduction à l'effet mouton :** L'effet mouton, une théorie de la psychologie sociale, suggère que nous avons tendance à imiter les comportements de nos pairs. Ce phénomène se manifeste lorsque les individus se retrouvent dans l'incertitude et adoptent alors les actions ou les points de vue des autres membres de leur groupe.
 
-L’effet mouton  :  est une théorie issue de la psychologie sociale, nous serions poussés à reproduire les comportements de nos semblables. Selon ce principe, un individu ne sachant quoi faire ou quoi penser, aura tendance à adopter le comportement ou le point de vue d'autres personnes.
+**Point historique :** Lors d'un voyage avec son compagnon Pantagruel, Panurge entre en conflit avec un marchand de moutons appelé Dindenault. Pour se venger, Panurge achète un mouton au marchand et le jette à la mer. Les autres moutons, habitués à suivre leur chef de troupeau, sautent également dans la mer.
+
+**Exemples du phénomène dans la vie quotidienne :**
+
+1. **Suivre la foule dans des situations dangereuses :** Lors de bousculades ou d'émeutes, les individus ont tendance à paniquer et à suivre le mouvement sans réfléchir, ce qui peut aggraver la situation.
+   - **Formule mathématique :** Modélisation de la probabilité de suivi en fonction du nombre de personnes autour.
+
+2. **Les chasses aux sorcières au 17ème siècle :** Durant cette période, des femmes innocentes ont été persécutées et tuées sur la base de rumeurs plutôt que de preuves tangibles, illustrant ainsi l'effet mouton à grande échelle.
+   - **Formule mathématique :** Analyse de la propagation des rumeurs et de leur impact sur le comportement collectif.
+
+**Simulation de l'effet mouton avec Python :**
+
+1. **Définir la classe Mouton :** Création d'une classe pour représenter les moutons dans notre simulation.
+2. **Créer un environnement :** Mise en place d'un environnement virtuel dans lequel les moutons évolueront.
+3. **Initialiser une population de moutons :** Génération d'une population de moutons avec des comportements initiaux aléatoires.
+4. **Simuler le comportement :** Développement d'un algorithme pour simuler l'interaction et le mouvement des moutons selon l'effet mouton.
+5. **Visualiser la simulation :** Création de graphiques ou d'animations pour représenter visuellement le comportement des moutons dans l'environnement simulé.
+
+**Conclusion :** Cette modélisation offre une simulation intrigante du comportement du mouton de Panurge dans un environnement dynamique parsemé d'obstacles, nous permettant de mieux comprendre les mécanismes sous-jacents de l'effet mouton et ses implications dans divers contextes sociaux.
+
 
 <img width="580" alt="image0" src=https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/blob/main/image0.jpeg>
 
-
-Nous allons simuler ce phénomène avec Python. En créant notre population et l'environnement dans lequel  les individus vont bouger et intéragire entre eux. 
-
  <img  width="280" alt="image1" src=https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/blob/main/image1.jpeg>
-
-Point historique : Lors de son voyage avec son compagnon Pantagruel, Panurge se querelle avec un marchand de moutons nommé Dindenault. Décidé à se venger du négociant, Panurge lui achète un mouton et le jette à la mer. Habitués à suivre le chef de leur troupeau, tous les moutons sautent à leur tour dans la mer.
- 
-
-Exemple de ce phénomène dans la vie cotidienne :
-
-Exemple 1: Suivre la foule dans des situations dangereuses en paniquant et sans réfléchir , comme une bousculade ou une émeute.
-
-Exemple 2:  Les chasses aux sorcières en Europe et en Amérique au 17eme siècles , où des femmes innocentes ont été persécutées et tuées non pas sur  la base d'accusations avec des fondements mais sur des rumeurs. 
-
-
-
-
-
-
 
 
 
