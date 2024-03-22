@@ -13,17 +13,21 @@
 **Exemples du phénomène dans la vie quotidienne :**
 
 1. **Suivre la foule dans des situations dangereuses :** Lors de bousculades ou d'émeutes, les individus ont tendance à paniquer et à suivre le mouvement sans réfléchir, ce qui peut aggraver la situation.
-   - **Formule mathématique :** Modélisation de la probabilité de suivi en fonction du nombre de personnes autour.
-
+  
 2. **Les chasses aux sorcières au 17ème siècle :** Durant cette période, des femmes innocentes ont été persécutées et tuées sur la base de rumeurs plutôt que de preuves tangibles, illustrant ainsi l'effet mouton à grande échelle.
-   - **Formule mathématique :** Analyse de la propagation des rumeurs et de leur impact sur le comportement collectif.
-
+  
 **Simulation de l'effet mouton avec Python :**
 
 1. **Définir la classe Mouton :** Création d'une classe pour représenter les moutons dans notre simulation.
+    - **Formule mathématique :** Modélisation de la probabilité de suivi en fonction du nombre de personnes autour.
+    - **Formule mathématique :** Analyse de la propagation des rumeurs et de leur impact sur le comportement collectif.
+
 2. **Créer un environnement :** Mise en place d'un environnement virtuel dans lequel les moutons évolueront.
+   
 3. **Initialiser une population de moutons :** Génération d'une population de moutons avec des comportements initiaux aléatoires.
+
 4. **Simuler le comportement :** Développement d'un algorithme pour simuler l'interaction et le mouvement des moutons selon l'effet mouton.
+   
 5. **Visualiser la simulation :** Création de graphiques ou d'animations pour représenter visuellement le comportement des moutons dans l'environnement simulé.
 
     <img  width="280" alt="image1" src=https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/blob/main/image1.jpeg>
