@@ -8,6 +8,9 @@ Nous allons simuler ce phénomène avec Python. En créant notre population et l
 
 We will simulate this phenomenon with Python. By creating our population and the environment in which individuals will move and interact with each other.We will then simulate the behavior of each individual ( determine the direction to follow (leader or random),move in the chosen direction,manage collisions with obstacles and other sheep...),and finally Visualize the simulation (display the position of the sheep and the leader). This simulation is a dynamic modeling of the panurge sheep phenomenon.
 
+
+<img width="580" alt="image0" src=https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/blob/main/image0.jpeg>
+
 ## Présentation de l'équipe
 
 |(´・v・｀)|  ಠ_ಠ | ᕕ( ᐛ )ᕗ |
@@ -23,7 +26,7 @@ We will simulate this phenomenon with Python. By creating our population and the
 
 **Hypothèses secondaires :** La simulation permet aux utilisateurs de comprendre les différentes facettes de Panurge et de soncomportements.
 
-**Objectifs :**
+**Objectifs :** Recréer la dynamique de l'épisode , explorer les conditions favorisant la contagion , étudier l'impact de la manipulation sur le groupe.
 
 **Critère(s) d'évaluation :**
 
