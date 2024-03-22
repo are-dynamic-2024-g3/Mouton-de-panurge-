@@ -38,10 +38,12 @@ La simulation permet aux utilisateurs de comprendre les différentes facettes de
 
 **Objectifs**
 
+<ul>
+<li>-Recréer la dynamique de l'épisode.</li>
+<li>-explorer les conditions favorisant la contagion.</li>
+<li>-étudier l'impact de la manipulation sur le groupe.</li>
 
--Recréer la dynamique de l'épisode\n
--explorer les conditions favorisant la contagion. 
--étudier l'impact de la manipulation sur le groupe.
+</ul>
 
 **Critère(s) d'évaluation**
 
