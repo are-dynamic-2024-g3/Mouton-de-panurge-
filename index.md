@@ -17,11 +17,11 @@ We will simulate this phenomenon with Python. By creating our population and the
 
 ## Description synthétique du projet
 
-**Problématique :** 
+**Problématique :** Reproduire l'épisode du mouton de panurge.
 
-**Hypothèse principale :**
+**Hypothèse principale :**Le mouton de Panurge symbolise la pensée moutonnière et la tendance des individus à suivre aveuglément la majorité.
 
-**Hypothèses secondaires :** 
+**Hypothèses secondaires :** La simulation permet aux utilisateurs de comprendre les différentes facettes de Panurge et de soncomportements.
 
 **Objectifs :**
 
