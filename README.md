@@ -22,8 +22,10 @@
     - Modélisation de la probabilité de suivi en fonction du nombre de personnes autour.
     - Analyse de la propagation des rumeurs et de leur impact sur le comportement collectif.
     - **Formule mathématique :**  Nous allons utilisater les expressions suivantes pour ajuster les mouvements des moutons dans la simulation,
-      <img width="580" alt="dx" src=https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/blob/main/dx.jpeg>
-
+      <img width="580" alt="dx" src=https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/blob/main/dx.jpeg> : Pour l'ajustement de la vitesse horizontale,
+      <img width="580" alt="dy" src=https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/blob/main/dy.jpeg> : Pour l'ajustement de la vitesse verticale,
+      <img width="580" alt="v" src=https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/blob/main/v.jpeg> : Pour calculer la vitesse totale
+      
 
 2. **Créer un environnement :** Mise en place d'un environnement virtuel dans lequel les moutons évolueront.
    
