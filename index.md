@@ -24,15 +24,26 @@ We will simulate this phenomenon with Python. By creating our population and the
 
 ## Description synthétique du projet
 
-**Problématique :** Reproduire l'épisode du mouton de panurge.
+**Problématique :**
 
-**Hypothèse principale :**Le mouton de Panurge symbolise la pensée moutonnière et la tendance des individus à suivre aveuglément la majorité.
+Reproduire l'épisode du mouton de panurge.
 
-**Hypothèses secondaires :** La simulation permet aux utilisateurs de comprendre les différentes facettes de Panurge et de soncomportements.
+**Hypothèse principale** 
 
-**Objectifs :** Recréer la dynamique de l'épisode , explorer les conditions favorisant la contagion , étudier l'impact de la manipulation sur le groupe.
+Le mouton de Panurge symbolise la pensée moutonnière et la tendance des individus à suivre aveuglément la majorité.
 
-**Critère(s) d'évaluation :**
+**Hypothèses secondaires**
+
+La simulation permet aux utilisateurs de comprendre les différentes facettes de Panurge et de soncomportements.
+
+**Objectifs**
+
+
+-Recréer la dynamique de l'épisode.
+-explorer les conditions favorisant la contagion. 
+-étudier l'impact de la manipulation sur le groupe.
+
+**Critère(s) d'évaluation**
 
 ## Présentation structurée des résultats
 
