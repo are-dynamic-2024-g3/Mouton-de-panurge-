@@ -11,7 +11,8 @@ Cette semaine a été marquée par une session de recherche documentaire intensi
 ### Semaine 3
 Le point d'orgue de cette semaine fut la mise en commun de nos recherches. Nous avons consolidé nos découvertes en un ensemble cohérent, explorant notamment des pistes de code et des tutoriels pour la modélisation visuelle. En parallèle, nous avons poursuivi la rédaction du README, testé des premiers morceaux de code et échangé activement au sein du groupe pour affiner notre vision collective.
 
-**Semaine 4 (15/03/2024):** Au cours de cette semaine, nous avons continué à enrichir le README et à affiner notre approche de modélisation. Nous avons également poursuivi nos expérimentations avec le code et entrepris des recherches plus approfondies pour identifier une bibliothèque de visualisation adaptée à nos besoins spécifiques. Nos échanges réguliers ont permis de maintenir une dynamique collaborative fructueuse au sein du groupe.
+### Semaine 3
+Au cours de cette semaine, nous avons continué à enrichir le README et à affiner notre approche de modélisation. Nous avons également poursuivi nos expérimentations avec le code et entrepris des recherches plus approfondies pour identifier une bibliothèque de visualisation adaptée à nos besoins spécifiques. Nos échanges réguliers ont permis de maintenir une dynamique collaborative fructueuse au sein du groupe.
 
 
 <a href="index.html"> Retour à la page principale </a>
