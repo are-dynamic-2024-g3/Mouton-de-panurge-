@@ -44,11 +44,7 @@ La simulation permet aux utilisateurs de comprendre les différentes facettes de
 <li>-étudier l'impact de la manipulation sur le groupe.</li>
 
 </ul>
-```py
 
- def hello(int hello)
- 
-```
 
 
 ## Présentation structurée des résultats
