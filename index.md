@@ -44,6 +44,8 @@ La simulation permet aux utilisateurs de comprendre les différentes facettes de
 <li>-étudier l'impact de la manipulation sur le groupe.</li>
 
 </ul>
+```py
+```
 
 
 ## Présentation structurée des résultats
