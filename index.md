@@ -62,7 +62,7 @@ La simulation permet aux utilisateurs de comprendre les différentes facettes de
 
 **Créer un environnement:**
 <ul>
-  <li></li>  
+    
  <li>-Définir une zone de simulation</li>
  <li>-Placer des obstacles</li>
 </ul>
