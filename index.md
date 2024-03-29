@@ -65,6 +65,7 @@ La simulation permet aux utilisateurs de comprendre les différentes facettes de
  <li>-Définir une zone de simulation</li>
  <li>-Placer des obstacles</li>
 </ul>
+
 **Initialiser une population de moutons:**
 <lu>
  <li>-Définir un nombre initial de moutons</li>
