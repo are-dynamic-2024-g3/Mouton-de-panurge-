@@ -16,7 +16,7 @@
   
 2. **Les chasses aux sorcières au 17ème siècle :** Durant cette période, des femmes innocentes ont été persécutées et tuées sur la base de rumeurs plutôt que de preuves tangibles, illustrant ainsi l'effet mouton à grande échelle.
   
-**Simulation de l'effet mouton avec Python :**
+**Simulation de l'effet mouton avec Python**
 
 1. **Définir la classe Mouton :** Création d'une classe pour représenter les moutons dans notre simulation,
    
