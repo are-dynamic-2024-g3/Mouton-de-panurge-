@@ -84,7 +84,10 @@ La simulation permet aux utilisateurs de comprendre les différentes facettes de
 
  </lu>
 
+
+
 **Visualiser la simulation:**
+
 
  -Afficher la position des moutons et du leader
 
