@@ -55,19 +55,21 @@ La simulation permet aux utilisateurs de comprendre les différentes facettes de
 **Définir la classe Mouton:**
 <ul>
     
-  <li>-Attributs: position, direction, vitesse, tendance à suivre (suivre_le_leader)<\li>
+  <li>-Attributs: position, direction, vitesse, tendance à suivre (suivre_le_leader)</li>
   <li>-Méthodes: se_deplacer(), suivre_leader(leader)</li>
   </ul>
 
 **Créer un environnement:**
-
- -Définir une zone de simulation
- -Placer des obstacles
-
+<ul>
+  <li></li>  
+ <li>-Définir une zone de simulation</li>
+ <li>-Placer des obstacles</li>
+</ul>
 **Initialiser une population de moutons:**
-
- -Définir un nombre initial de moutons
- -Attribuer des positions et directions aléatoires aux moutons
+<lu>
+ <li>-Définir un nombre initial de moutons</li>
+ <li>-Attribuer des positions et directions aléatoires aux moutons</li>
+ </lu>
 
 **Simuler le comportement:**
 
