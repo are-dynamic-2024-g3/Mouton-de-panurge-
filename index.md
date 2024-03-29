@@ -45,6 +45,8 @@ La simulation permet aux utilisateurs de comprendre les différentes facettes de
 
 </ul>
 ```py
+
+ def hello(int hello)
 ```
 
 
