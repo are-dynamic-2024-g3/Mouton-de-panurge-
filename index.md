@@ -73,7 +73,7 @@ La simulation permet aux utilisateurs de comprendre les différentes facettes de
 
 **Simuler le comportement:**
 
-""Pour chaque mouton à chaque itération:""
+""Pour chaque mouton à chaque itération""
 
  -Déterminer la direction à suivre (leader ou aléatoire)
  -Se déplacer dans la direction choisie
