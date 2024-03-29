@@ -76,10 +76,13 @@ La simulation permet aux utilisateurs de comprendre les différentes facettes de
 **Simuler le comportement:**
 
 ""Pour chaque mouton à chaque itération""
+<lu>
 
- -Déterminer la direction à suivre (leader ou aléatoire)
- -Se déplacer dans la direction choisie
- -Gérer les collisions avec les obstacles et les autres moutons
+<li>-Déterminer la direction à suivre (leader ou aléatoire)</li>
+ <li>-Se déplacer dans la direction choisie</li>
+ <li>-Gérer les collisions avec les obstacles et les autres moutons</li>
+
+ </lu>
 
 **Visualiser la simulation:**
 
