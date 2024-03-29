@@ -48,14 +48,16 @@ La simulation permet aux utilisateurs de comprendre les différentes facettes de
 
 ## Présentation structurée des résultats
 
-**Comment modéliser ce comportement avec le modèle de schilling:**
+**Comment modéliser ce comportement avec python**
 
-    -Simulation avec des agents
+-Simulation des agents 
 
 **Définir la classe Mouton:**
-
-  -Attributs: position, direction, vitesse, tendance à suivre (suivre_le_leader)
-  -Méthodes: se_deplacer(), suivre_leader(leader)
+<ul>
+    
+  <li>-Attributs: position, direction, vitesse, tendance à suivre (suivre_le_leader)<\li>
+  <li>-Méthodes: se_deplacer(), suivre_leader(leader)</li>
+  </ul>
 
 **Créer un environnement:**
 
