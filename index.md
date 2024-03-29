@@ -50,7 +50,7 @@ La simulation permet aux utilisateurs de comprendre les différentes facettes de
 
 **Comment modéliser ce comportement avec le modèle de schilling:**
 
-    &nbsp;-Simulation avec des agents
+    &nbsp-Simulation avec des agents
 
 **Définir la classe Mouton:**
 
