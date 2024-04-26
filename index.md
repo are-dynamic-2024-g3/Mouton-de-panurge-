@@ -98,6 +98,7 @@ La simulation permet aux utilisateurs de comprendre les différentes facettes de
 
 
 
+'''py
 ## Lien vers page de blog : <a href="blog.html"> C'est ici ! </a>
 
 ## Bibliographie :
