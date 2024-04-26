@@ -50,6 +50,10 @@ Ces expressions contribuent à réguler le mouvement des moutons en fonction de 
 
 <img  width="280" alt="image1" src=https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/blob/main/image1.jpeg>
 
+```py
+  print("j'en ai marre")
+```
+
 
 
 
