@@ -76,6 +76,8 @@ La simulation permet aux utilisateurs de comprendre les différentes facettes de
       <li><img width="200" alt="v" src=https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/blob/main/v.PNG> : 
       Pour calculer la vitesse totale. </li>
   </ul>
+
+
   
   ```py
   
@@ -92,7 +94,7 @@ La simulation permet aux utilisateurs de comprendre les différentes facettes de
             #modifier vx et vy permet de définir la direction pour suivre le leader
             self.vx += 0.1 * dx/distance_leader
             self.vy += 0.1 * dy/distance_leader
-        ```
+   ```
 
 Ces expressions contribuent à réguler le mouvement des moutons en fonction de la distance par rapport au leader et à maintenir une vitesse maximale cohérente.    
 
