@@ -54,7 +54,16 @@ La simulation permet aux utilisateurs de comprendre les différentes facettes de
 **Simulation de l'effet mouton avec Python**
 
 1. **Définir la classe Mouton :** Création d'une classe pour représenter les moutons dans notre simulation,
-   
+     ```py
+     
+      class Mouton:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+        self.vx = 0
+        self.vy = 0
+        self.influence = random.random() #valeur entre 0 et 1
+   ```
     - Modélisation de la probabilité de suivi en fonction du nombre de personnes autour.
     - Analyse de la propagation des rumeurs et de leur impact sur le comportement collectif.
     - **Formules mathématiques :**  Nous allons utiliser les expressions suivantes pour ajuster les mouvements des moutons dans la simulation,
