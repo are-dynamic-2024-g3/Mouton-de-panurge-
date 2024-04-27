@@ -110,6 +110,23 @@ class Environnement:
         self.obstacles = []
         #self.ajouter_murs()
         self.ajouter_obstacles_aleatoires()
+
+  def ajouter_obstacles_aleatoires(self, nb_obstacles=10):
+        # Ajouter des obstacles aléatoires à l'environnement
+        for _ in range(nb_obstacles):
+            self.obstacles.append(Obstacle(np.random.uniform(0, self.largeur), np.random.uniform(0, self.hauteur)))
+
+    def murs(self):
+        x_min = 1
+        x_max = self.largeur-1
+        y_min = 1
+        y_max = self.hauteur-1
+        return x_min, x_max, y_min, y_max
+    
+
+    def draw(self):
+       for obstacle in self.obstacles:
+           plt.plot(obstacle.x, obstacle.y, 'ko')  # Dessiner les obstacles en noir
 ```
 4. **Initialiser une population de moutons :** Génération d'une population de moutons avec des comportements initiaux aléatoires.
 
