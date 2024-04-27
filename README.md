@@ -77,6 +77,7 @@ La simulation permet aux utilisateurs de comprendre les différentes facettes de
       Pour calculer la vitesse totale. </li>
   </ul>
   ```py
+  
   # REGLE DE SUIVI DU LEADER 
         
         # Définir la distance entre chaque mouton et le leader
