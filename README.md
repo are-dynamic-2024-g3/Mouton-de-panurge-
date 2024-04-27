@@ -4,7 +4,7 @@
 
 **Membres :**  *Mariam Ibtihel Narimane*
 
-**Introduction à l'effet mouton :** L'effet mouton, une théorie de la psychologie sociale, suggère que nous avons tendance à imiter les comportements de nos pairs. Ce phénomène se manifeste lorsque les individus se retrouvent dans l'incertitude et adoptent alors les actions ou les points de vue des autres membres de leur groupe.
+**Introduction à l'effet mouton :** Nous allons simuler ce phénomène avec Python. En créant notre population et l'environnement dans lequel  les individus vont bouger et intéragire entre eux.Nous allons ensuite simuler le comportement de chaque individu ( déterminer la direction à suivre (leader ou aléatoire),se déplacer dans la direction choisi,gérer les collisions avec les obstacles et les autres moutons...),et enfin Visualiser la simulation (afficher la position des moutons et du leader).Cette simulation est une modélisation dynamique du phénomène du mouton de panurge.
 
 <img width="580" alt="image0" src=https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/blob/main/image0.jpeg>
 
