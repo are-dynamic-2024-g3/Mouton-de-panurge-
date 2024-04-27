@@ -128,13 +128,24 @@ class Environnement:
        for obstacle in self.obstacles:
            plt.plot(obstacle.x, obstacle.y, 'ko')  # Dessiner les obstacles en noir
 ```
-4. **Initialiser une population de moutons :** Génération d'une population de moutons avec des comportements initiaux aléatoires.
+4. **Initialiser une population de moutons :** Génération d'une population de moutons avec des comportements initiaux aléatoires et l'environnement.
+   ```py
+           
+# Initialisation
+nb_moutons = 50
+largeur_environnement = 50
+hauteur_environnement = 50
 
-5. **Simuler le comportement :** Développement d'un algorithme pour simuler l'interaction et le mouvement des moutons selon l'effet mouton.
+environnement = Environnement(largeur_environnement, hauteur_environnement)
+moutons = [Mouton(np.random.uniform(0, largeur_environnement), np.random.uniform(0, hauteur_environnement)) for i in range(nb_moutons)]
+   ```
+
+
+6. **Simuler le comportement :** Développement d'un algorithme pour simuler l'interaction et le mouvement des moutons selon l'effet mouton.
 
    <img  width="400" alt="image1" src= https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/blob/main/Capture%20d%E2%80%99%C3%A9cran%20du%202024-03-14%2021-28-14.png>
    
-6. **Visualiser la simulation :** Création de graphiques ou d'animations pour représenter visuellement le comportement des moutons dans l'environnement simulé.
+7. **Visualiser la simulation :** Création de graphiques ou d'animations pour représenter visuellement le comportement des moutons dans l'environnement simulé.
 
 **Conclusion :** Cette modélisation offre une simulation intrigante du comportement du mouton de Panurge dans un environnement dynamique parsemé d'obstacles, nous permettant de mieux comprendre les mécanismes sous-jacents de l'effet mouton et ses implications dans divers contextes sociaux.
 
