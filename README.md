@@ -142,17 +142,16 @@ moutons = [Mouton(np.random.uniform(0, largeur_environnement), np.random.uniform
 
 
 4. **Simuler le comportement :** Développement d'un algorithme pour simuler l'interaction et le mouvement des moutons selon l'effet mouton.
-   ```py
-   # Simulation
+```py
+#Simulation
 for t in range(100):
     leader = None
     for mouton in moutons:
         mouton.update(t, environnement, moutons)
         if mouton == mouton.leader(moutons):
             leader = mouton
-    
-            leader.update(t, environnement, moutons)
-   ```
+            leader.update(t, environnement, moutons).
+```
 
    <img  width="400" alt="image1" src= https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/blob/main/Capture%20d%E2%80%99%C3%A9cran%20du%202024-03-14%2021-28-14.png>
    
