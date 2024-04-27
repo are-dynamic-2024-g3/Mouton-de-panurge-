@@ -179,5 +179,39 @@ class Environnement:
     def draw(self):
        for obstacle in self.obstacles:
            plt.plot(obstacle.x, obstacle.y, 'ko')  # Dessiner les obstacles en noir
+
+        
+# Initialisation
+nb_moutons = 50
+largeur_environnement = 50
+hauteur_environnement = 50
+
+environnement = Environnement(largeur_environnement, hauteur_environnement)
+moutons = [Mouton(np.random.uniform(0, largeur_environnement), np.random.uniform(0, hauteur_environnement)) for i in range(nb_moutons)]
+
+# Simulation
+for t in range(100):
+    leader = None
+    for mouton in moutons:
+        mouton.update(t, environnement, moutons)
+        if mouton == mouton.leader(moutons):
+            leader = mouton
+    
+            leader.update(t, environnement, moutons)
+
+
+
+    # Visualisation
+    plt.clf() # efface la figure actuelle.
+    plt.xlim([0, largeur_environnement])
+    plt.ylim([0, hauteur_environnement])
+    
+    for mouton in moutons:
+        mouton.draw(is_leader=(mouton == leader))
+    for obstacle in environnement.obstacles:
+        plt.plot(obstacle.x, obstacle.y, 'ro')
+        
+    plt.pause(0.10)
+
 ```
 
