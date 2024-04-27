@@ -100,7 +100,9 @@ Ces expressions contribuent à réguler le mouvement des moutons en fonction de 
 
 
 2. **Créer un environnement :** Mise en place d'un environnement virtuel dans lequel les moutons évolueront.
-   ```py
+
+ ```py
+
 class Environnement:
     def __init__(self, largeur, hauteur):
         self.largeur = largeur
@@ -108,8 +110,7 @@ class Environnement:
         self.obstacles = []
         #self.ajouter_murs()
         self.ajouter_obstacles_aleatoires()
-    ```
-   
+```
 4. **Initialiser une population de moutons :** Génération d'une population de moutons avec des comportements initiaux aléatoires.
 
 5. **Simuler le comportement :** Développement d'un algorithme pour simuler l'interaction et le mouvement des moutons selon l'effet mouton.
