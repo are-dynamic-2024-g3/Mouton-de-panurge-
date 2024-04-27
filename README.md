@@ -76,9 +76,10 @@ La simulation permet aux utilisateurs de comprendre les différentes facettes de
       <li><img width="200" alt="v" src=https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/blob/main/v.PNG> : 
       Pour calculer la vitesse totale. </li>
   </ul>
+  
   ```py
   
-  # REGLE DE SUIVI DU LEADER 
+       Regle de suivi du leader
         
         # Définir la distance entre chaque mouton et le leader
         dx = leader_mouton.x - self.x
