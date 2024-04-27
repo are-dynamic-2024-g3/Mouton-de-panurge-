@@ -81,7 +81,7 @@ La simulation permet aux utilisateurs de comprendre les différentes facettes de
   
   ```py
   
-       Regle de suivi du leader
+       #Regle de suivi du leader
         
         # Définir la distance entre chaque mouton et le leader
         dx = leader_mouton.x - self.x
