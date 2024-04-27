@@ -130,13 +130,6 @@ class Mouton:
                  distance = np.sqrt((mouton.x - leader.x)**2 + (mouton.y - leader.y)**2)
                  
                  # Comparer avec la distance la plus courte et mettre à jour le leader proche si nécessaire    
-               
-         
-        #regles de suivi                
-                
-
-        
-        
 
     def draw(self, is_leader=False):
         if is_leader:
@@ -145,13 +138,10 @@ class Mouton:
             plt.plot(self.x, self.y, 'bo')  # Dessiner en bleu pour les autres moutons
             
 
-
 class Obstacle:
     def __init__(self, x, y):
         self.x = x
         self.y = y
-
-
 
 class Environnement:
     def __init__(self, largeur, hauteur):
@@ -173,8 +163,6 @@ class Environnement:
         y_max = self.hauteur-1
         return x_min, x_max, y_min, y_max
     
-        
-        
         
     def draw(self):
        for obstacle in self.obstacles:
@@ -198,8 +186,6 @@ for t in range(100):
             leader = mouton
     
             leader.update(t, environnement, moutons)
-
-
 
     # Visualisation
     plt.clf() # efface la figure actuelle.
