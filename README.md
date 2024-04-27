@@ -101,7 +101,6 @@ Ces expressions contribuent à réguler le mouvement des moutons en fonction de 
 
 2. **Créer un environnement :** Mise en place d'un environnement virtuel dans lequel les moutons évolueront.
    ```py
-   
 class Environnement:
     def __init__(self, largeur, hauteur):
         self.largeur = largeur
