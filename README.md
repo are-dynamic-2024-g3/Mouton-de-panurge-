@@ -129,16 +129,16 @@ class Environnement:
            plt.plot(obstacle.x, obstacle.y, 'ko')  # Dessiner les obstacles en noir
 ```
 4. **Initialiser une population de moutons :** Génération d'une population de moutons avec des comportements initiaux aléatoires et l'environnement.
-   ```py
+ ```py
            
-# Initialisation
+Initialisation
 nb_moutons = 50
 largeur_environnement = 50
 hauteur_environnement = 50
 
 environnement = Environnement(largeur_environnement, hauteur_environnement)
 moutons = [Mouton(np.random.uniform(0, largeur_environnement), np.random.uniform(0, hauteur_environnement)) for i in range(nb_moutons)]
-   ```
+```
 
 
 6. **Simuler le comportement :** Développement d'un algorithme pour simuler l'interaction et le mouvement des moutons selon l'effet mouton.
