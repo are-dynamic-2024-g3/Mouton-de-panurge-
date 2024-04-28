@@ -14,5 +14,16 @@ Le point d'orgue de cette semaine fut la mise en commun de nos recherches. Nous 
 ### Semaine 4
 Au cours de cette semaine, nous avons continué à enrichir le README et à affiner notre approche de modélisation. Nous avons également poursuivi nos expérimentations avec le code et entrepris des recherches plus approfondies pour identifier une bibliothèque de visualisation adaptée à nos besoins spécifiques. Nos échanges réguliers ont permis de maintenir une dynamique collaborative fructueuse au sein du groupe.
 
+### Semaine 5
+Au cours de  cette semaine , nous avons continuer a travailler sur notre code et notre site.
+
+### Semeine 6
+
+Nous avons finaliser notre code et nous avons fait les derniers ajouts et modifications sur notre site .
+
+### Semeine 7
+
+Nous avons réaliser des courbes et tableaux pour analyser nos résultas, ainsi que notre présentation finale.
+
 
 <a href="index.html"> Retour à la page principale </a>
