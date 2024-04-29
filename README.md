@@ -425,7 +425,7 @@ Mais il y a un cas où peu importe la vitesse du leader, si les moutons sont dé
 
 Voici une courbe qui permet de constater cela :
 
-<img width="650" alt="2" src=> 
+<img width="650" alt="2" src=https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/blob/main/2.png> 
 
 On comprend alors **2** choses :
 Premièrement, que la vitesse du leader qui determine sa direction en fonction de sa valeur aleatoire cela va avoir un impacte sur les autres moutons
