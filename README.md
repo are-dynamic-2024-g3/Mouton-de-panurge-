@@ -526,7 +526,9 @@ La voici,
 
 On voit sur cette courbe qu'elle a une allure croissante mais elle n’est pas strictement croissent. Ceci s'explique par le fait que si les moutons sont déjà proches du leader, ils n’auront pas besoin de beaucoup de temps pour arriver à celui-ci. On peut l'observer sur cette autre courbe :
 
-<img width="650" alt="4" src=> 
+<img width="650" alt="4" src=https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/blob/main/4.png> 
+
+Ici, lorsqu'il y 30 obstacles, les moutons n'ont pas besoin de beaucoup d'itérations pour être très proche du leader pourtant le nombre d'obstacles est élevé, il semble qu elors de cette simulation les moutons étaient déjà assez proches du leader.
 
 Avant de passer à la suite, voici un tableau avec des données que nous avons collectées. 
 
