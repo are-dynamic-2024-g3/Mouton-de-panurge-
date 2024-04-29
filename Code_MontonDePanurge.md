@@ -218,8 +218,7 @@ def temps_suivi(environnement, moutons, limite_iterations):
                 leader.update(t, environnement,nb, moutons)
         
         # vérifier si tous les moutons ont arretés de bouger
-        tous_arretes = all(mouton.vx == 0 and mouton.vy == 0 for mouton in moutons)  #La fonction 'all' est une fonction Python qui prend une séquence                                                                                                     #en argument et renvoie True si tous les éléments de cette séquence
-                                                                                     #sont évalués comme True, sinon elle renvoie False.
+        tous_arretes = all(mouton.vx == 0 and mouton.vy == 0 for mouton in moutons)  #La fonction 'all' est une fonction Python qui prend une séquence en argument et renvoie True si tous les éléments de cette séquence sont évalués comme True, sinon elle renvoie False.
         if tous_arretes:
             return t + 1  # Ajouter 1 pour inclure l'itération actuelle
         
