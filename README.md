@@ -6,7 +6,7 @@
 
 ## Sommaire :
 <ul>
-<li>Introduction du comportement </li>
+<li>[Introduction du comportement](https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/blob/main/README.md#introduction-%C3%A0-leffet-mouton-)</li>
 <li>Description synthétique du projet </li>
 <li>Présentation structurée des résultats </li>
 <li>Conclusion</li>
