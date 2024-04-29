@@ -6,7 +6,7 @@
 
 ## Sommaire :
 <ul>
-<li>[Introduction du comportement](https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/blob/main/README.md#introduction-%C3%A0-leffet-mouton-)</li>
+<li>Introduction du comportement</li>
 <li>Description synthétique du projet </li>
 <li>Présentation structurée des résultats </li>
 <li>Conclusion</li>
@@ -16,10 +16,15 @@
     
 ## Introduction à l'effet mouton : 
 Imaginons que nous voulions étudier le phénomène du mouton de Panurge à l'aide d'une simulation informatique. Pour ce faire, nous allons utiliser Python pour créer une simulation où nous aurons une population de moutons qui interagissent entre eux dans un environnement donné.
-Tout d'abord, nous allons créer notre population de moutons. Chaque mouton aura une position initiale dans l'environnement et une certaine influence aléatoire qui déterminera son comportement par rapport aux autres moutons. Certains moutons peuvent être des leaders, tandis que d'autres suivront ces leaders ou auront un comportement aléatoire.
+
+Tout d'abord, nous allons créer notre population de moutons. Chaque mouton aura une position initiale dans l'environnement et une certaine influence aléatoire qui déterminera son comportement par rapport aux autres moutons. Certains moutons peuvent être des leaders, tandis que d'autres suivront ce ou ces leader(s) ou auront un comportement aléatoire.
+
 Ensuite, nous allons définir l'environnement dans lequel les moutons évolueront. Cet environnement peut contenir des obstacles fixes qui représentent des éléments auxquels les moutons doivent faire attention lorsqu'ils se déplacent.
-Maintenant, passons à la simulation du comportement de chaque individu. Chaque mouton devra prendre des décisions en fonction de son environnement. Il devra déterminer s'il suit un leader, s'il suit un mouvement aléatoire ou s'il évite les obstacles et les autres moutons sur son chemin. Ces décisions seront basées sur des règles préétablies qui définissent le comportement des moutons dans différentes situations.
-Enfin, nous allons visualiser la simulation pour mieux comprendre le comportement global de la population de moutons. Nous allons afficher la position de chaque mouton ainsi que celle du leader s'il y en a un. Cela nous permettra d'observer comment les moutons interagissent entre eux et avec leur environnement.
+
+Maintenant, passons à la simulation du comportement de chaque individu. Chaque mouton devra prendre des décisions en fonction de son environnement. Il devra déterminer s'il suit un leader, s'il évite les obstacles et les autres moutons sur son chemin. Ces décisions seront basées sur des règles préétablies qui définissent le comportement des moutons dans différentes situations.
+
+Enfin, nous allons visualiser la simulation pour mieux comprendre le comportement global de la population de moutons. Nous allons afficher la position de chaque mouton ainsi que celle du leader. Cela nous permettra d'observer comment les moutons interagissent entre eux et avec leur environnement.
+
 En résumé, cette simulation nous permettra de modéliser dynamiquement le phénomène du mouton de Panurge et d'étudier comment les interactions individuelles entre les moutons peuvent conduire à des comportements collectifs émergents.
 
 <img width="580" alt="i" src=https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/blob/main/i.jpg>
@@ -35,16 +40,16 @@ En résumé, cette simulation nous permettra de modéliser dynamiquement le phé
 
 **Problématique :** Comment les interactions individuelles entre les membres d'une population peuvent-elles conduire à des comportements collectifs de type "mouton de Panurge" ?
 
-**Hypothèse principale** La tendance des individus à suivre aveuglément la majorité peut émerger à partir d'interactions simples entre les membres d'une population.
+**Hypothèse principale :** La tendance des individus à suivre aveuglément la majorité peut émerger à partir d'interactions simples entre les membres d'une population.
 
-**Hypothèses secondaires**
+**Hypothèses secondaires :**
 <ul>
    <li>Les individus sont influencés par le comportement de leurs pairs et tendent à les imiter.</li>
    <li>La présence de leaders au sein de la population peut influencer le comportement des autres membres.</li>
    <li>Les obstacles dans l'environnement peuvent modifier les trajectoires individuelles et collectives des membres de la population.</li>
 </ul>
 
-**Objectifs**
+**Objectifs :**
 
 <ul>
 <li>Modéliser les interactions entre les membres d'une population à l'aide d'une simulation informatique.</li>
@@ -61,6 +66,8 @@ En résumé, cette simulation nous permettra de modéliser dynamiquement le phé
 1. **Suivre la foule dans des situations dangereuses :** Lors de bousculades ou d'émeutes, les individus ont tendance à paniquer et à suivre le mouvement sans réfléchir, ce qui peut aggraver la situation.
   
 2. **Les chasses aux sorcières au 17ème siècle :** Durant cette période, des femmes innocentes ont été persécutées et tuées sur la base de rumeurs plutôt que de preuves tangibles, illustrant ainsi l'effet mouton à grande échelle.
+   
+3. **Suivre aveuglément les tendances :** Adopter une nouvelle mode vestimentaire simplement parce que tout le monde le fait, sans se soucier de ses propres goûts ou de son style personnel. 
 
 
 **Formules mathématiques :**  Nous allons utiliser les expressions suivantes pour ajuster les mouvements des moutons dans la simulation,
@@ -99,8 +106,8 @@ class Mouton:
         self.vy = 0
         self.influence = random.random() #valeur entre 0 et 1
 ```
-Cette initialisation d’objet ou individu va nous permettre de crée des moutons afin dvaoir une population sur laquelle observer le comportement que nous modélisons. 
-Pour cela on a un point x et y pour la position du mouton une vitesse vx et vy pour la direction du mouton et une influence qui nous sera très utile par la suite qui nous permettra de définie un leader parmi les moutons qui influencera les autres.
+Cette initialisation d’objet ou individu va nous permettre de crée des moutons afin d'avoir une population sur laquelle observer le comportement que nous modélisons. 
+Pour cela on a un point x et y pour la position du mouton une vitesse vx et vy pour la direction du mouton et une influence qui nous sera très utile par la suite qui nous permettra de définir un leader parmi les moutons, qui influencera les autres.
 
 Dans cette même classe on définit la méthode suivante : 
 
@@ -121,7 +128,7 @@ Dans cette même classe on définit la méthode suivante :
 Cette méthode nous permet de choisir parmi la population de mouton celui qui a le plus d’influence pour que les autres moutons le suive. Comme dans la vie réelle on observe que les personnes suivent celui ou celle qui paraît plus fort(e), plus confiant(e), plus sûr(e) de son choix, plus intelligent(e)… Donc finalement, on suit selon des critères, l’influence.
 
 Pour continuer, il faut maintenant que les moutons suivent le leader et evitent les obstacles qu'ils peuvent rencontrer sur leur chemin, pour cela on implémente la méthode ```update```.        
-Décorticon chaque partie pour mieux comprendre son fonctionnement.
+Décortiquons chaque partie pour mieux comprendre son fonctionnement.
 Elle est constituée de **4 partie**.
 
 **1ere partie :  LE LEADER**
@@ -162,7 +169,7 @@ On choisi un leader puis on defini sa direction de façon aléatoire.
             leader_mouton.vy=0
  ```
    
-On calcule la distance entre le leader et chaque mouton puis si cette distance est supérieur a 3 on continue d'avancer en modifiant les vitesse vx et vy afin d’avancer vers la direction du leader si cette condition n’est pas respecter c'est a dire que les moutons ont une distance inférieur ou égale a 3 tout le monde s'arrête.
+On calcule la distance entre le leader et chaque mouton puis si cette distance est supérieur a 3 on continue d'avancer en modifiant les vitesse vx et vy afin d’avancer vers la direction du leader si cette condition n’est pas respecter c'est a dire que les moutons ont une distance inférieur ou égale a 3 tout le monde s'arrête. Nous avons choisi 3 car nous trouvons que c'est une distance très proche et en même temps permet au mouton d'anticiper son arrêt.
 
 **3eme partie :  ÉVITEMENT D’OBSTACLES**
 
@@ -177,7 +184,7 @@ On calcule la distance entre le leader et chaque mouton puis si cette distance e
               self.vy -= 0.1 * dy / distance_obstacle
  ```
 
-Pour eviter les obstacles on utilise la même logique que le suivi des mouton vers le leader mais au lieu d’additionner on soustrait cela permet au mouton de « reculer » face à l’obstacle pour l’éviter. L’évitement se fait que lorsque le mouton est a une distance de l’obstacle strictement inférieure à 5.
+Pour éviter les obstacles on utilise la même logique que le suivi des mouton vers le leader mais au lieu d’additionner on soustrait cela permet au mouton de « reculer » face à l’obstacle pour l’éviter. L’évitement se fait que lorsque le mouton est a une distance de l’obstacle strictement inférieure à 5. Nous avons choisi 5 pour marquer une différence entre la distance d'évitement et la distance d'approche du mouton vers le leader. Cette distance est plus élevé car on veut éviter l'obstacle plus tôt, avant de le rencontrer.
 
 **4eme partie :  LE LEADER**
 
@@ -231,9 +238,9 @@ Pour eviter les obstacles on utilise la même logique que le suivi des mouton ve
         leader_mouton.y = new_leader_y
  ```
 
-Dans cette parti nous utilisons une méthode de la classe environnement que nous detaillerons plus tard. On vérifie que la position de chaque membre de la population de depassent pas les limites de l'environnement, puis on met à jour la position de chaque individu de constituant la population.
+Dans cette parti nous utilisons une méthode de la classe environnement que nous détaillerons plus tard. On vérifie que la position de chaque membre de la population ne dépassent pas les limites de l'environnement, puis on met à jour la position de chaque individu de constituant la population.
 
-Pour plus de clareter nous definissons une méthode qui va nous permettre de distinguer par les differentes couleurs le leader et les moutons :
+Pour plus de clarté nous definissons une méthode qui va nous permettre de distinguer par les differentes couleurs le leader et les moutons :
 
 ```py 
   def draw(self, is_leader=False):
@@ -289,7 +296,7 @@ def murs(self):
         return x_min, x_max, y_min, y_max
 ```
 
-Nous avons utiliser precedement cette méthode pour délimiter les bords de notre monde. Ici les min sont égales à 1 car les individus de la population sont représentés par des points et si les min seraient égales à 0 on aurait l’impression que les individus ont la moitier de leur « corps » en dehors du monde. Cela évite qu’ils soient « coller » au murs avant de rebondir pour l’éviter. De même pour les max.
+Nous avons utiliser precedement cette méthode pour délimiter les bords de notre monde. Ici, les min sont égales à 1 car les individus de la population sont représentés par des points et si les min seraient égales à 0 on aurait l’impression que les individus ont la moitier de leur « corps » en dehors du monde. Cela évite qu’ils soient « coller » aux murs avant de rebondir pour l’éviter. De même pour les max.
 
 Et pour finir, nous avons la méthode suivante :
 
@@ -320,6 +327,7 @@ moutons = [Mouton(np.random.uniform(0, largeur_environnement), np.random.uniform
 nb_obstacles = 7  # Nombre d'obstacles à ajouter
 environnement.ajouter_obstacles_aleatoires(nb_obstacles)
 ```
+On décide de choisir un environement de taille 50x50, car cela nous semble être une dimension correcte, pas trop grand, pas trop petit, et une population de 10 moutons, 7 obstacles et une direction pas trop aléatoire du leader  afin d'évaluer ce comportement de la manère la plus fidèle possible et la plus réaliste. Mais au fur et à mesur nous allons modifier cela, pour comprendre différents comportements et facteur pouvant modifier les déplacement des individus.
 
 Puis Simuler le comportement,
 
@@ -335,7 +343,7 @@ for t in range(50):
             leader.update(t, environnement,nb, moutons)
 ```
 
-On peut maintenant passer a la visualisation:
+On peut maintenant passer à la visualisation:
 
 ```py 
   # Visualisation
@@ -367,7 +375,7 @@ Mais plus la direction du leader est **aléatoire** plus les moutons n'arrivent 
 https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/assets/160219069/b1fc8345-21cf-4908-ae42-b5fdf3a74a88
 
 
-Apres avoir atteint les 50 itérations les mouton ne sont pas dutout proche du leader, il n’y a pas la reprsentation dune foule.
+Après avoir atteint les 50 itérations les moutons ne sont pas dutout proche du leader, il n’y a pas la représentation d'une foule.
 
 On peut l’observer sur la courbe ci-dessous :
 
@@ -377,10 +385,11 @@ nb_moutons = 10
 largeur_environnement = 50
 hauteur_environnement = 50
 nb_obstacles=7
+nb=0.1
 limite_iterations = 50
+moutons = [Mouton(np.random.uniform(0, largeur_environnement), np.random.uniform(0, hauteur_environnement)) for i in range(nb_moutons)]
 
-moutons = [Mouton(np.random.uniform(0, largeur_environnement), np.random.uniform(0, hauteur_environnement)) for i in range(nb_moutons)]    
-
+        
 def temps_suivi(environnement, moutons, limite_iterations):
     for t in range(limite_iterations):
         leader = None
@@ -405,7 +414,7 @@ def simuler_temps_suivi(nb_liste):
         moutons = [Mouton(np.random.uniform(0, largeur_environnement), np.random.uniform(0, hauteur_environnement)) for _ in range(nb_moutons)]
         # Exécuter la simulation et calculer le temps de suivi moyen
         temps_suivi_total = 0
-        for _ in range(50):  # Exécuter la simulation 30 fois
+        for _ in range(50):  # Exécuter la simulation 50 fois
             environnement = Environnement(largeur_environnement, hauteur_environnement)
             environnement.ajouter_obstacles_aleatoires(nb_obstacles)
             temps_suivi_total += temps_suivi(environnement, moutons, limite_iterations)
@@ -436,7 +445,7 @@ Voici une courbe qui permet de constater cela :
 <img width="650" alt="2" src=https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/blob/main/2.png> 
 
 On comprend alors **2** choses :
-Premièrement, que la vitesse du leader qui determine sa direction en fonction de sa valeur aleatoire cela va avoir un impacte sur les autres moutons
+Premièrement, que la vitesse du leader qui determine sa direction en fonction de sa valeur aleatoire cela va avoir un impacte sur les autres moutons.
 Deuxiement, que la position de départ des mouton par rapport au leader a un impacte sur le temps de suivi du leader.
 
 **Remarque : à chaque execution du code permettant de réaliser la courbe, la courbe change car se ne sont jamais les mêmes simulations.**
@@ -448,7 +457,6 @@ Pour cela,
 On fait l’initialisation,
 
 ```py 
-# Initialisation
 nb_moutons = 10
 largeur_environnement = 50
 hauteur_environnement = 50
@@ -460,29 +468,28 @@ moutons = [Mouton(np.random.uniform(0, largeur_environnement), np.random.uniform
 Puis on implémente une fonction pour évaluer le temps de suivi du mouton,
 
 ```py 
-def temps_suivi(environnement, moutons,nb, limite_iterations):
+def temps_suivi(environnement, moutons, limite_iterations):
     for t in range(limite_iterations):
         leader = None
         for mouton in moutons:
-            mouton.update(t, environnement, moutons)
+            mouton.update(t, environnement,nb, moutons)
             if mouton == mouton.leader(moutons):
                 leader = mouton
-                leader.update(t, environnement, moutons)
+                leader.update(t, environnement,nb, moutons)
         
-        # vérifier si tous les moutons ont arretés de bouger
-        tous_arretes = all(mouton.vx == 0 and mouton.vy == 0 for mouton in moutons) #La fonction 'all' est une fonction Python qui prend une séquence en argument et                                                                                      #renvoie True si tous les éléments de cette séquence
-                                                                                    #sont évalués comme True, sinon elle renvoie False.
+        # V√©rifier si tous les moutons ont arrête de bouger
+        tous_arretes = all(mouton.vx == 0 and mouton.vy == 0 for mouton in moutons)
         if tous_arretes:
             return t + 1  # Ajouter 1 pour inclure l'itération actuelle
         
-    # Si la limite maximale d'it√©rations est atteinte
+    # Si la limite maximale d'itérations est atteinte
     return limite_iterations
 ```
 
 Ensuite on « créeer » les données,
 
 ```py 
-nb_obstacles = [60,50,40,30,20,10,0]  # Nombre d'obstacles √† tester
+nb_obstacles = [60,50,40,30,20,10,0]  # Nombre d'obstacles à tester
 
 temps_suivi_moyen = []
 
@@ -491,12 +498,12 @@ for nb_obs in range (0,len(nb_obstacles)):
     environnement.ajouter_obstacles_aleatoires(nb_obstacles[nb_obs])
     temps_suivi_total = 0
     
-    # Exécutez plusieurs fois la simulation pour obtenir une moyenne
-    for _ in range(30):  # Ex√©cutez la simulation 2 fois
+    # Ex√©cutez plusieurs fois la simulation pour obtenir une moyenne
+    for _ in range(30):  # Exécutez la simulation 30 fois
         temps_suivi_total += temps_suivi(environnement, moutons,50)
     
     # Calculez la moyenne du temps de suivi pour ce nombre d'obstacles
-    temps_suivi_moyen.append(int(temps_suivi_total / 30)) # Divisez par le nombre de simulations (5)
+    temps_suivi_moyen.append(int(temps_suivi_total / 30)) # Divisez par le nombre de simulations (30)
     nb_obs+=1
 ```
 
@@ -507,7 +514,7 @@ plt.plot(nb_obstacles, temps_suivi_moyen)
 plt.xlabel('Nombre d\'obstacles')
 plt.ylabel('Moyenne du temps de suivi des moutons')
 plt.title('Temps de suivi des moutons en fonction du nombre d\'obstacles')
-plt.ylim(0, 55)  # D√©finir les limites de l'axe y de 0 √† 100
+plt.ylim(0, 55)  # Définir les limites de l'axe y 
 plt.show()
 ```
 
@@ -517,7 +524,7 @@ Voici une video de la simulation utilisant ce code :
 https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/assets/160219069/75cc5adf-5b92-442d-bd61-0a2d6a284d6e
 
 
-On observe ici que après avoir fait 50 itérations les moutons ne sont toujours pas regroupés vers le leader. Il semble que 50 itérations ne soient pas assez. On remarque une **« hatitude » assez anormale** des moutons ils essayent a la fois de **suivre le leader mais aussi d'éviter les nombreux obstacles**. 
+On observe ici qu'après avoir fait 50 itérations les moutons ne sont toujours pas regroupés vers le leader. Il semble que 50 itérations ne soient pas assez. On remarque une **« hatitude » assez anormale** des moutons ils essayent 0 la fois de **suivre le leader mais aussi d'éviter les nombreux obstacles**. On comprend par cela et de façon intuitif que plus il y a d'obstacles plus les moutons n'arrivent pas toujours à suivre le leader.
 
 Et au contraire lorqu'il n'y a pas beaucoup d'obstacles, les moutons suivent plus rapidement le leader,
 
@@ -532,11 +539,11 @@ La voici,
 
 <img width="650" alt="3" src=https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/blob/main/3.png> 
 
-On voit sur cette courbe qu'elle a une allure croissante mais elle n’est pas strictement croissent. Ceci s'explique par le fait que si les moutons sont déjà proches du leader, ils n’auront pas besoin de beaucoup de temps pour arriver à celui-ci. On peut l'observer sur cette autre courbe :
+On voit sur cette courbe qu'elle a une allure croissante mais elle n’est pas strictement croissant. Ceci s'explique par le fait que si les moutons sont déjà proches du leader, ils n’auront pas besoin de beaucoup de temps pour arriver à celui-ci. On peut l'observer sur cette autre courbe :
 
 <img width="650" alt="4" src=https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/blob/main/4.png> 
 
-Ici, lorsqu'il y 30 obstacles, les moutons n'ont pas besoin de beaucoup d'itérations pour être très proche du leader pourtant le nombre d'obstacles est élevé, il semble qu elors de cette simulation les moutons étaient déjà assez proches du leader.
+Ici, lorsqu'il y 30 obstacles, les moutons n'ont pas besoin de beaucoup d'itérations pour être très proche du leader pourtant le nombre d'obstacles est élevé, il semble que lors de cette simulation les moutons étaient déjà assez proches du leader. Alors le nombre d'obstacles n'a pas impacté leur déplacement.
 
 Avant de passer à la suite, voici un tableau avec des données que nous avons collectées. 
 
@@ -555,13 +562,22 @@ Pour cette simulation, nous avons utiliser une boucle allant jusqu'à 100 itéra
 <img width="650" alt="7" src=https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/blob/main/7.png> 
 
 
-On remarque que plus le leader a une direction aléatoire et plus il y a d'obstacles plus le nombre d’iteration représentant le temps de suivi des moutons vers le leader **augmente**. Cette observation semble être proportinelle.
+On remarque que plus le leader a une direction aléatoire et plus il y a d'obstacles plus le nombre d’iteration représentant le temps de suivi des moutons vers le leader **augmente**. Cette observation semble être proportionnelle.
 	
 Pour finir, même si cela semble intuitif, on va observer quelques courbes sur l’impacte de la taille de l'environnement sur le temps de suivi des moutons.
 
-Le code reste identique seulement le nom des parametres et des variables à l'intereur de la fonction changent :
+Le code reste identique seulement le nom des parametres et des variables à l'intereur de la fonction ```simuler_temps_suivi``` changent :
 
 ```py 
+# Initialisation
+nb_moutons = 10
+largeur_environnement = 50
+hauteur_environnement = 50
+nb_obstacles=7
+nb=0.1
+limite_iterations = 50
+moutons = [Mouton(np.random.uniform(0, largeur_environnement), np.random.uniform(0, hauteur_environnement)) for i in range(nb_moutons)]
+
 def temps_suivi(environnement, moutons, limite_iterations):
     for t in range(limite_iterations):
         leader = None
@@ -578,6 +594,7 @@ def temps_suivi(environnement, moutons, limite_iterations):
         
     # Si la limite maximale d'itérations est atteinte
     return limite_iterations
+
 
 def simuler_temps_suivi(tailles_environnement):
     temps_suivi_moyen = []
@@ -624,7 +641,7 @@ Mais, voici une seconde courbe qui nous permet d'avoir un temps de reflexion :
 
 <img width="650" alt="6" src=https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/blob/main/6.png> 
 
-En effet, comme precedement,  cela s'explique par le fait que si les moutons sont déjà proches du leader ils n’auront pas besoin de beaucoup de temps pour arriver à celui-ci et donc, dans se cas là, la taille de l'environnemnt n'a aucun impacte sur le temps de suivi des moutons.
+En effet, comme precedement,  cela s'explique par le fait que si les moutons sont déjà proches du leader ils n’auront pas besoin de beaucoup de temps pour arriver à celui-ci et donc, dans se cas là, la taille de l'environnemnt n'a aucun impacte sur le temps de suivi des moutons, ce n'est pas un facteur qui influence leur temps de suivi.
 
 <img width="400" alt="image0" src=https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/blob/main/image0.jpeg>
 
