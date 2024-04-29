@@ -347,7 +347,9 @@ plt.show()
 
 Voici une vidéo de ce que cela peut donner. Oui, **« peut donner »** car à chaque execution cela change ce n’est jamais identique.
 
-<img width="170" alt="1" src=  https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/blob/main/distance.png>
+
+https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/assets/160219069/920b9ac5-a3d8-4d62-af8d-067ab35ad18c
+
 
 Ici, en 16 itérations sur 50 les moutons sont proches du leader, et s’arretent donc.
 
