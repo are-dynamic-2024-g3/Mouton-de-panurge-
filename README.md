@@ -522,11 +522,11 @@ Cette simulation a eu besoin de seulement 15 itérations sur 50 pour avoir un re
 On peut observer ceci par une courbe. 
 La voici,
 
-photo3
+<img width="650" alt="3" src=https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/blob/main/3.png> 
 
 On voit sur cette courbe qu'elle a une allure croissante mais elle n’est pas strictement croissent. Ceci s'explique par le fait que si les moutons sont déjà proches du leader, ils n’auront pas besoin de beaucoup de temps pour arriver à celui-ci. On peut l'observer sur cette autre courbe :
 
-photo4
+<img width="650" alt="4" src=> 
 
 Avant de passer à la suite, voici un tableau avec des données que nous avons collectées. 
 
@@ -542,7 +542,8 @@ moutons = [Mouton(np.random.uniform(0, largeur_environnement), np.random.uniform
 
 Pour cette simulation, nous avons utiliser une boucle allant jusqu'à 100 itérations.
 
-photo7
+<img width="650" alt="7" src=> 
+
 
 On remarque que plus le leader a une direction aléatoire et plus il y a d'obstacles plus le nombre d’iteration représentant le temps de suivi des moutons vers le leader **augmente**. Cette observation semble être proportinelle.
 	
@@ -604,13 +605,14 @@ plt.show()
 
 Voici une première courbe :
 
-photo5
+<img width="650" alt="5" src=> 
+
 
 On observe sur celle-ci que plus la taille de l'environnement est grand plus les moutons prennent du temps à arriver vers le leader, ce qui paraît normale et logique.
 
 Mais, voici une seconde courbe qui nous permet d'avoir un temps de reflexion :
 
-photo6
+<img width="650" alt="6" src=> 
 
 En effet, comme precedement,  cela s'explique par le fait que si les moutons sont déjà proches du leader ils n’auront pas besoin de beaucoup de temps pour arriver à celui-ci et donc, dans se cas là, la taille de l'environnemnt n'a aucun impacte sur le temps de suivi des moutons.
 
