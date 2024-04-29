@@ -452,6 +452,35 @@ Deuxiement, que la position de départ des mouton par rapport au leader a un imp
 
 On va maintenant observer l’impacte du nombre d'obstacle sur le temps de suivi des moutons : 
 
+
+Voici l'initialisation modifiée avec un plus grand nombre d'obstacles,
+```py 
+nb_moutons = 10
+largeur_environnement = 50
+hauteur_environnement = 50
+nb=0.1
+nb_obstacles=40
+moutons = [Mouton(np.random.uniform(0, largeur_environnement), np.random.uniform(0, hauteur_environnement)) for i in range(nb_moutons)]
+```
+
+Voici une video d'une simulation:
+
+
+https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/assets/160219069/75cc5adf-5b92-442d-bd61-0a2d6a284d6e
+
+
+On observe ici qu'après avoir fait 50 itérations les moutons ne sont toujours pas regroupés vers le leader. Il semble que 50 itérations ne soient pas assez. On remarque une **« hatitude » assez anormale** des moutons ils essayent 0 la fois de **suivre le leader mais aussi d'éviter les nombreux obstacles**. On comprend par cela et de façon intuitif que plus il y a d'obstacles plus les moutons n'arrivent pas toujours à suivre le leader.
+
+Et au contraire lorqu'il n'y a pas beaucoup d'obstacles, les moutons suivent plus rapidement le leader,
+
+
+https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/assets/160219069/6832b9b1-0eb8-4102-b087-be13bdc565d3
+
+
+Cette simulation a eu besoin de seulement 15 itérations sur 50 pour avoir un regroupement des moutons et du leader. Les moutons ne sont pas gênés par des obstacles qui peuvent contraindre leur déplacement vers le leader.
+
+On peut observer ceci par une courbe. 
+
 Pour cela,
 
 On fait l’initialisation,
@@ -518,23 +547,6 @@ plt.ylim(0, 55)  # Définir les limites de l'axe y
 plt.show()
 ```
 
-Voici une video de la simulation utilisant ce code :
-
-
-https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/assets/160219069/75cc5adf-5b92-442d-bd61-0a2d6a284d6e
-
-
-On observe ici qu'après avoir fait 50 itérations les moutons ne sont toujours pas regroupés vers le leader. Il semble que 50 itérations ne soient pas assez. On remarque une **« hatitude » assez anormale** des moutons ils essayent 0 la fois de **suivre le leader mais aussi d'éviter les nombreux obstacles**. On comprend par cela et de façon intuitif que plus il y a d'obstacles plus les moutons n'arrivent pas toujours à suivre le leader.
-
-Et au contraire lorqu'il n'y a pas beaucoup d'obstacles, les moutons suivent plus rapidement le leader,
-
-
-https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/assets/160219069/6832b9b1-0eb8-4102-b087-be13bdc565d3
-
-
-Cette simulation a eu besoin de seulement 15 itérations sur 50 pour avoir un regroupement des moutons et du leader. Les moutons ne sont pas gênés par des obstacles qui peuvent contraindre leur déplacement vers le leader.
-
-On peut observer ceci par une courbe. 
 La voici,
 
 <img width="650" alt="3" src=https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/blob/main/3.png> 
