@@ -417,7 +417,7 @@ plt.ylabel('Moyenne du temps de suivi des moutons')
 plt.title('Temps de suivi des moutons en fonction de la direction aléatoire du leader')
 ```
 
-photo1
+<img width="650" alt="1" src= https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/blob/main/1.png> 
 
 De façon analogique, lorsqu’un groupe de personne décide de suivre une personne ayant une grande influence pour une certaine raison, et que celle ci se déplace de façon imprévisible et rapidement, le groupe d'individu ne peut bien evidement pas suivre le ‘leader’.
 
@@ -425,7 +425,7 @@ Mais il y a un cas où peu importe la vitesse du leader, si les moutons sont dé
 
 Voici une courbe qui permet de constater cela :
 
-photo2
+<img width="650" alt="2" src=> 
 
 On comprend alors **2** choses :
 Premièrement, que la vitesse du leader qui determine sa direction en fonction de sa valeur aleatoire cela va avoir un impacte sur les autres moutons
