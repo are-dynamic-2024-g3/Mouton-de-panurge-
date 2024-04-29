@@ -64,8 +64,9 @@ En résumé, cette simulation nous permettra de modéliser dynamiquement le phé
       Pour l'ajustement de la vitesse verticale, </li>
       <li><img width="200" alt="v" src=https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/blob/main/v.PNG> : 
       Pour calculer la vitesse totale. </li>
-     <li> formule de la distance </li>
+     <li><img width="500" alt="distance" src=  https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/blob/main/distance.png> : formule de la distance </li>
   </ul>
+
   
 ## Présentation structurée des résultats
   
