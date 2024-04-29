@@ -355,7 +355,9 @@ Ici, en 16 itérations sur 50 les moutons sont proches du leader, et s’arreten
 
 Mais plus la direction du leader est **aléatoire** plus les moutons n'arrivent **plus à le suivre** et donc le temps de **suivi augmente**.
 
-Video 2.mp4
+
+https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/assets/160219069/b1fc8345-21cf-4908-ae42-b5fdf3a74a88
+
 
 Apres avoir atteint les 50 itérations les mouton ne sont pas dutout proche du leader, il n’y a pas la reprsentation dune foule.
 
