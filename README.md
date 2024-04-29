@@ -505,7 +505,9 @@ plt.show()
 
 Voici une video de la simulation utilisant ce code :
 
-video 3.mp4
+
+https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/assets/160219069/75cc5adf-5b92-442d-bd61-0a2d6a284d6e
+
 
 On observe ici que après avoir fait 50 itérations les moutons ne sont toujours pas regroupés vers le leader. Il semble que 50 itérations ne soient pas assez. On remarque une **« hatitude » assez anormale** des moutons ils essayent a la fois de **suivre le leader mais aussi d'éviter les nombreux obstacles**. 
 
