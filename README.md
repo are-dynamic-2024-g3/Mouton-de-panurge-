@@ -626,6 +626,7 @@ Mais, voici une seconde courbe qui nous permet d'avoir un temps de reflexion :
 
 En effet, comme precedement,  cela s'explique par le fait que si les moutons sont déjà proches du leader ils n’auront pas besoin de beaucoup de temps pour arriver à celui-ci et donc, dans se cas là, la taille de l'environnemnt n'a aucun impacte sur le temps de suivi des moutons.
 
+<img width="400" alt="image0" src=https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/blob/main/image0.jpeg>
 
 ## Conclusion : 
 En résumé, cette simulation nous offre un aperçu fascinant du comportement des individus. Elle nous aide à mieux comprendre pourquoi les personnes suivent parfois aveuglément un « leader », même dans des situations complexes.
