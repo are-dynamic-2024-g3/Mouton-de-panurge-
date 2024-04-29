@@ -614,7 +614,7 @@ On observe sur celle-ci que plus la taille de l'environnement est grand plus les
 
 Mais, voici une seconde courbe qui nous permet d'avoir un temps de reflexion :
 
-<img width="650" alt="6" src=> 
+<img width="650" alt="6" src=https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/blob/main/6.png> 
 
 En effet, comme precedement,  cela s'explique par le fait que si les moutons sont déjà proches du leader ils n’auront pas besoin de beaucoup de temps pour arriver à celui-ci et donc, dans se cas là, la taille de l'environnemnt n'a aucun impacte sur le temps de suivi des moutons.
 
