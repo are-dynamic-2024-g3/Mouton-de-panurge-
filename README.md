@@ -607,7 +607,7 @@ plt.show()
 
 Voici une première courbe :
 
-<img width="650" alt="5" src=> 
+<img width="650" alt="5" src=https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/blob/main/5.png> 
 
 
 On observe sur celle-ci que plus la taille de l'environnement est grand plus les moutons prennent du temps à arriver vers le leader, ce qui paraît normale et logique.
