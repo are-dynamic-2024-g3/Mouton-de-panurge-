@@ -22,6 +22,12 @@ Maintenant, passons à la simulation du comportement de chaque individu. Chaque 
 Enfin, nous allons visualiser la simulation pour mieux comprendre le comportement global de la population de moutons. Nous allons afficher la position de chaque mouton ainsi que celle du leader s'il y en a un. Cela nous permettra d'observer comment les moutons interagissent entre eux et avec leur environnement.
 En résumé, cette simulation nous permettra de modéliser dynamiquement le phénomène du mouton de Panurge et d'étudier comment les interactions individuelles entre les moutons peuvent conduire à des comportements collectifs émergents.
 
+## Présentation de l'équipe
+
+|(´・v・｀)|  ಠ_ಠ | ᕕ( ᐛ )ᕗ |
+|-----|--|--|
+| F.Ibtihel| A.Mariam | O.Narimane |
+
 
 ## Description synthétique du projet
 
