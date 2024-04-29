@@ -544,7 +544,7 @@ moutons = [Mouton(np.random.uniform(0, largeur_environnement), np.random.uniform
 
 Pour cette simulation, nous avons utiliser une boucle allant jusqu'à 100 itérations.
 
-<img width="650" alt="7" src=> 
+<img width="650" alt="7" src=https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/blob/main/7.png> 
 
 
 On remarque que plus le leader a une direction aléatoire et plus il y a d'obstacles plus le nombre d’iteration représentant le temps de suivi des moutons vers le leader **augmente**. Cette observation semble être proportinelle.
