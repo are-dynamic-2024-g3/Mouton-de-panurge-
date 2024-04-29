@@ -513,7 +513,9 @@ On observe ici que après avoir fait 50 itérations les moutons ne sont toujours
 
 Et au contraire lorqu'il n'y a pas beaucoup d'obstacles, les moutons suivent plus rapidement le leader,
 
-video 4.mp4
+
+https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/assets/160219069/6832b9b1-0eb8-4102-b087-be13bdc565d3
+
 
 Cette simulation a eu besoin de seulement 15 itérations sur 50 pour avoir un regroupement des moutons et du leader. Les moutons ne sont pas gênés par des obstacles qui peuvent contraindre leur déplacement vers le leader.
 
