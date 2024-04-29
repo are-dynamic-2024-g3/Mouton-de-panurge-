@@ -1,4 +1,4 @@
-```py 
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 import random 
@@ -146,6 +146,9 @@ class Environnement:
         y_min = 1
         y_max = self.hauteur-1
         return x_min, x_max, y_min, y_max
+    
+        
+        
         
     def draw(self):
        for obstacle in self.obstacles: 
@@ -153,6 +156,7 @@ class Environnement:
 
 
 # Initialisation
+
 nb_moutons = 10
 largeur_environnement = 100
 hauteur_environnement = 100
@@ -191,36 +195,38 @@ for t in range(50):
 
 plt.show()
 
+#POUR LES COURBES
 
-# x=nb d'obstacles y=temps des suivi du mouton 2
+# x = Nombre d'obstacles y = Temps de suivi des moutons
 
 # Initialisation
 nb_moutons = 10
 largeur_environnement = 50
 hauteur_environnement = 50
+nb=0.1
 
 moutons = [Mouton(np.random.uniform(0, largeur_environnement), np.random.uniform(0, hauteur_environnement)) for i in range(nb_moutons)]
-        
-# pour les m√©triques faire une fonction pour le temps de suivi du mouton 
-def temps_suivi(environnement, moutons,nb, limite_iterations):
+
+
+def temps_suivi(environnement, moutons, limite_iterations):
     for t in range(limite_iterations):
         leader = None
         for mouton in moutons:
-            mouton.update(t, environnement, moutons)
+            mouton.update(t, environnement,nb, moutons)
             if mouton == mouton.leader(moutons):
                 leader = mouton
-                leader.update(t, environnement, moutons)
+                leader.update(t, environnement,nb, moutons)
         
-        # V√©rifier si tous les moutons ont arr√™t√© de bouger
+        # vérifier si tous les moutons ont arretés de bouger
         tous_arretes = all(mouton.vx == 0 and mouton.vy == 0 for mouton in moutons)
         if tous_arretes:
-            return t + 1  # Ajouter 1 pour inclure l'it√©ration actuelle
+            return t + 1  # Ajouter 1 pour inclure l'itération actuelle
         
-    # Si la limite maximale d'it√©rations est atteinte
+    # Si la limite maximale d'itérations est atteinte
     return limite_iterations
 
     
-nb_obstacles = [60,50,40,30,20,10,0]  # Nombre d'obstacles √† tester
+nb_obstacles = [60,50,40,30,20,10,0]  # Nombre d'obstacles à tester
 
 temps_suivi_moyen = []
 
@@ -230,24 +236,37 @@ for nb_obs in range (0,len(nb_obstacles)):
     temps_suivi_total = 0
     
     # Ex√©cutez plusieurs fois la simulation pour obtenir une moyenne
-    for _ in range(30):  # Ex√©cutez la simulation 2 fois
+    for _ in range(30):  # Exécutez la simulation 30 fois
         temps_suivi_total += temps_suivi(environnement, moutons,50)
     
     # Calculez la moyenne du temps de suivi pour ce nombre d'obstacles
-    temps_suivi_moyen.append(int(temps_suivi_total / 30)) # Divisez par le nombre de simulations (5)
+    temps_suivi_moyen.append(int(temps_suivi_total / 30)) # Divisez par le nombre de simulations (30)
     nb_obs+=1
-    
-# Tracer la courbe avec l'axe y de 0 √† 100
+
+# Tracer la courbe
 plt.plot(nb_obstacles, temps_suivi_moyen)
 plt.xlabel('Nombre d\'obstacles')
 plt.ylabel('Moyenne du temps de suivi des moutons')
 plt.title('Temps de suivi des moutons en fonction du nombre d\'obstacles')
-plt.ylim(0, 55)  # D√©finir les limites de l'axe y de 0 √† 100
+plt.ylim(0, 55)  # D√©finir les limites de l'axe y
 plt.show()
 
 
+
   
-# x = Taille de lenvireonnemtn  y = temps de suivi du mouton  3
+# x = Taille de l'environement  y = Temps de suivi des moutons  
+
+# Initialisation
+nb_moutons = 10
+largeur_environnement = 50
+hauteur_environnement = 50
+nb_obstacles=7
+nb=0.1
+limite_iterations = 50
+
+moutons = [Mouton(np.random.uniform(0, largeur_environnement), np.random.uniform(0, hauteur_environnement)) for i in range(nb_moutons)]
+
+
 def temps_suivi(environnement, moutons, limite_iterations):
     for t in range(limite_iterations):
         leader = None
@@ -287,7 +306,7 @@ tailles_environnement = [10, 20, 30, 40, 50]
 temps_suivi_moyen = simuler_temps_suivi(tailles_environnement)
 
 # Tracer la courbe
-plt.plot(tailles_environnement, temps_suivi_moyen, color='red')
+plt.plot(tailles_environnement, temps_suivi_moyen)
 plt.xlabel('Taille de l\'environnement')
 plt.ylabel('Moyenne du temps de suivi des moutons')
 plt.title('Temps de suivi des moutons en fonction de la taille de l\'environnement')
@@ -295,12 +314,14 @@ plt.show()
 
 
 
-# x = direction aleatoire de leader  y = temps de suivi du mouton 1
+# x = Direction aléatoire de leader  y = Temps de suivi des moutons
+
 # Initialisation
 nb_moutons = 10
 largeur_environnement = 50
 hauteur_environnement = 50
 nb_obstacles=7
+nb=0.1
 limite_iterations = 50
 
 
@@ -325,6 +346,9 @@ def temps_suivi(environnement, moutons, limite_iterations):
     # Si la limite maximale d'itérations est atteinte
     return limite_iterations
 
+
+
+
 def simuler_temps_suivi(nb_liste):
     temps_suivi_moyen = []
     for nb in nb_liste:
@@ -340,6 +364,7 @@ def simuler_temps_suivi(nb_liste):
     return temps_suivi_moyen
 
 
+
 # Liste des directions aléatoires du leader à tester
 liste_nb = [0.1,0.5,1, 5]
 
@@ -353,10 +378,4 @@ plt.ylabel('Moyenne du temps de suivi des moutons')
 plt.title('Temps de suivi des moutons en fonction de la direction aléatoire du leader')
 
 
-# REMARQUE: Nous pouvons modifier les valeurs pour obtenir différents résultats
-
 ```
-
-
-
-
