@@ -1,3 +1,4 @@
+```py 
 import numpy as np
 import matplotlib.pyplot as plt
 import random 
@@ -354,7 +355,7 @@ plt.title('Temps de suivi des moutons en fonction de la direction aléatoire du 
 
 # REMARQUE: Nous pouvons modifier les valeurs pour obtenir différents résultats
 
-
+```
 
 
 
