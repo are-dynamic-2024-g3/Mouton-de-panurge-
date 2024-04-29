@@ -641,7 +641,7 @@ De plus, nous pourrions complexifier le code en ajoutant une méthode permettant
 
 <img  width="400" alt="image1" src=https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/blob/main/image1.jpeg>
 
-[Code_MontonDePanurge.md]()
+**[Code_MontonDePanurge.md](https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/blob/main/Code_MontonDePanurge.md)**
 
 ## Tableau de bord :
 **Semaine 1:** Durant cette première semaine, nous avons initié notre projet en créant le dossier de travail, en établissant notre site et en rédigeant le README. Nous avons également entamé nos premiers échanges au sein du groupe pour définir les grandes lignes de notre collaboration.
