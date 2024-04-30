@@ -235,7 +235,7 @@ for nb_obs in range (0,len(nb_obstacles)):
     environnement.ajouter_obstacles_aleatoires(nb_obstacles[nb_obs])
     temps_suivi_total = 0
     
-    # Ex√©cutez plusieurs fois la simulation pour obtenir une moyenne
+    # Exécutez plusieurs fois la simulation pour obtenir une moyenne
     for _ in range(30):  # Exécutez la simulation 30 fois
         temps_suivi_total += temps_suivi(environnement, moutons,50)
     
@@ -356,7 +356,7 @@ def simuler_temps_suivi(nb_liste):
         moutons = [Mouton(np.random.uniform(0, largeur_environnement), np.random.uniform(0, hauteur_environnement)) for _ in range(nb_moutons)]
         # Exécuter la simulation et calculer le temps de suivi moyen
         temps_suivi_total = 0
-        for _ in range(50):  # Exécuter la simulation 30 fois
+        for _ in range(50):  # Exécuter la simulation 50 fois
             environnement = Environnement(largeur_environnement, hauteur_environnement)
             environnement.ajouter_obstacles_aleatoires(nb_obstacles)
             temps_suivi_total += temps_suivi(environnement, moutons, limite_iterations)
