@@ -653,7 +653,7 @@ Mais, voici une seconde courbe qui nous permet d'avoir un temps de reflexion :
 
 <img width="650" alt="6" src=https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/blob/main/6.png> 
 
-En effet, comme precedement,  cela s'explique par le fait que si les moutons sont déjà proches du leader ils n’auront pas besoin de beaucoup de temps pour arriver à celui-ci et donc, dans se cas là, la taille de l'environnemnt n'a aucun impacte sur le temps de suivi des moutons, ce n'est pas un facteur qui influence leur temps de suivi.
+En effet, comme precedement,  cela s'explique par le fait que si les moutons sont déjà proches du leader ils n’auront pas besoin de beaucoup de temps pour arriver à celui-ci, en tout cas, moins de temps et donc, dans se cas là, la taille de l'environnemnt n'a aucun impacte sur le temps de suivi des moutons, ce n'est pas un facteur qui influence leur temps de suivi.
 
 <img width="400" alt="image0" src=https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/blob/main/image0.jpeg>
 
@@ -697,6 +697,10 @@ De plus, nous pourrions complexifier le code en ajoutant une méthode permettant
 [Matplotlib Scatter (w3schools.com) ](https://www.w3schools.com/python/matplotlib_scatter.asp)
 
 [Welcome to Python.org](https://www.python.org/)
+
+[GitHub Exemples](https://github.com/are2020/exemple_de_projet)
+
+[Documentation GitHub](https://docs.github.com/fr/get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls)
 
 [Les moutons de Panurge : définition et origine de l’expression (lalanguefrancaise.com)](https://www.lalanguefrancaise.com/expressions/les-moutons-de-panurge-definition-origine#:~:text=L%E2%80%99expression%20%C2%AB%20mouton%20de%20Panurge%20%C2%BB%2C%20locution%20nominale%2C,la%20majorit%C3%A9%20sans%20trop%20se%20poser%20de%20questions%E2%80%A6)
 
