@@ -127,7 +127,7 @@ Dans cette même classe on définit la méthode suivante :
 
 Cette méthode nous permet de choisir parmi la population de mouton celui qui a le plus d’influence pour que les autres moutons le suive. Comme dans la vie réelle on observe que les personnes suivent celui ou celle qui paraît plus fort(e), plus confiant(e), plus sûr(e) de son choix, plus intelligent(e)… Donc finalement, on suit selon des critères, l’influence.
 
-Pour continuer, il faut maintenant que les moutons suivent le leader et evitent les obstacles qu'ils peuvent rencontrer sur leur chemin, pour cela on implémente la méthode ```update```.        
+Pour continuer, il faut maintenant que les moutons suivent le leader et evitent les obstacles qu'ils peuvent rencontrer sur leur chemin, pour cela on implémente la méthode ```def update(self, dt, environnement,nb, moutons)```.        
 Décortiquons chaque partie pour mieux comprendre son fonctionnement.
 Elle est constituée de **4 partie**.
 
