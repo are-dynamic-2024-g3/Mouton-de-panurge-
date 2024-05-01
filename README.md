@@ -574,7 +574,7 @@ Pour cette simulation, nous avons utiliser une boucle allant jusqu'à 100 itéra
 <img width="650" alt="7" src=https://github.com/are-dynamic-2024-g3/Mouton-de-panurge-/blob/main/7.png> 
 
 
-On remarque que plus le leader a une direction aléatoire et plus il y a d'obstacles plus le nombre d’iteration représentant le temps de suivi des moutons vers le leader **augmente**. Cette observation semble être proportionnelle.
+On remarque que plus le leader a une direction aléatoire et plus il y a d'obstacles plus le nombre d’itération (représentant le temps de suivi des moutons vers le leader) **augmente**. Cette observation semble être proportionnelle. On comprend ici, que dans certains cas il aurait fallut plus de temps, donc plus d'itérations pour que les moutons puissent arriver au leader. Cela nous permet d'en déduire que le temps fait parti des facteurs à prendre en compte, sur l'impacte du regroupement des moutons et du leader.
 	
 Pour finir, même si cela semble intuitif, on va observer quelques courbes sur l’impacte de la taille de l'environnement sur le temps de suivi des moutons.
 
