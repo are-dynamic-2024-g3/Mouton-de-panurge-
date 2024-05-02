@@ -15,7 +15,8 @@
 </ul>
     
 ## Introduction à l'effet mouton : 
-Imaginons que nous voulions étudier le phénomène du mouton de Panurge à l'aide d'une simulation informatique. Pour ce faire, nous allons utiliser Python pour créer une simulation où nous aurons une population de moutons qui interagissent entre eux dans un environnement donné.
+L'expression "mouton de Panurge" désigne un individu qui suit aveuglément la masse sans réfléchir par lui-même.
+Imaginons que nous voulions étudier ce phénomène  à l'aide d'une simulation informatique. Pour ce faire, nous allons utiliser Python pour créer une simulation où nous aurons une population de moutons qui interagissent entre eux dans un environnement donné.
 
 Tout d'abord, nous allons créer notre population de moutons. Chaque mouton aura une position initiale dans l'environnement et une certaine influence aléatoire qui déterminera son comportement par rapport aux autres moutons. Certains moutons peuvent être des leaders, tandis que d'autres suivront ce ou ces leader(s) ou auront un comportement aléatoire.
 
